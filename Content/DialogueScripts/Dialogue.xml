@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<Dialogue1>
+		<Dialogue string="Hello | Welcome To this prison" speaker="false">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What are you doing?" id="2">
+			</ResponseA>
+
+			<ResponseB string="How do I get out of here?" id="3">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="2"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="true" eventID="14"/>
+
+	</Dialogue1>
+
+	<Dialogue2>
+		<Dialogue string="We have the most horrible criminals locked up in here" speaker="false">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What are you doing?" id="2">
+			</ResponseA>
+
+			<ResponseB string="How do I get out of here?" id="3">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="3"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="true" eventID="1"/>
+
+	</Dialogue2>
+
+	<Dialogue3>
+		<Dialogue string="My name is David" speaker="false">
+			<Responses bool ="true"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What is your job here?" id="4">
+			</ResponseA>
+
+			<ResponseB string="How do I get out of here?" id="5">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="2"/>
+
+		<DialogueEnded bool="true"/>
+		
+		<EventTrigger bool="true" eventID="1"/> 
+
+	</Dialogue3>
+	
+	<Dialogue4>
+		<Dialogue string="I am a guard in this prison" speaker="false">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="2"/>
+
+		<DialogueEnded bool="true"/>
+
+		<EventTrigger bool="true" eventID="14"/>
+
+	</Dialogue4>
+
+
+	<Dialogue5>
+		<Dialogue string="You can't leave this place" speaker="false">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="3"/>
+
+		<DialogueEnded bool="true"/>
+
+		<EventTrigger bool="true" eventID="14"/>
+
+	</Dialogue5>
+</Root>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<Dialogue1>
+		<Dialogue string="You doing alright prisoner? | It's been a while since I last saw you " speaker="true">
+			<Responses bool ="true"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="[Say Nothing]" id="2">
+			</ResponseA>
+
+			<ResponseB string="I'm alright" id="3">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="2"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue1>
+
+	<Dialogue2>
+		<Dialogue string="Ah, don't wanna talk today huh?" speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What are you doing?" id="2">
+			</ResponseA>
+
+			<ResponseB string="How do I get out of here?" id="3">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="4"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue2>
+
+	<Dialogue3>
+		<Dialogue string="It doesn't look like you're doing alright" speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What is your job here?" id="4">
+			</ResponseA>
+
+			<ResponseB string="How do I get out of here?" id="5">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="4"/>
+
+		<DialogueEnded bool="false"/>
+		
+		<EventTrigger bool="false" eventID="14"/> 
+
+	</Dialogue3>
+	
+	<Dialogue4>
+		<Dialogue string="Anyways, I wanted to ask you a couple questions | specifically about the city " speaker="true">
+			<Responses bool ="true"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What do you wanna know?" id="5">
+			</ResponseA>
+
+			<ResponseB string="[Say Nothing]" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="5"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="1"/>
+
+	</Dialogue4>
+
+
+	<Dialogue5>
+		<Dialogue string="I just wanted to know if the city is really | as bad as they say it is. | I transfered here from out of town | and haven't had a chance to see the city yet" speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="7"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="27"/>
+
+	</Dialogue5>
+
+	<Dialogue6>
+		<Dialogue string="Don't feel like answering do ya?" speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="5"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="27"/>
+
+	</Dialogue6>
+
+	<Dialogue7>
+		<Dialogue string="I've heard stories about the infamous Sky City | so I've just been curiou----" speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="8"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="true" eventID="14"/>
+
+	</Dialogue7>
+
+
+	<Dialogue8>
+		<Dialogue string="[The alarms gone off and the prison is now in lockdown]" speaker="false">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="9"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue8>
+
+	<Dialogue9>
+		<Dialogue string="It's probably just a false alarm | anyways where were w--- " speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="10"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue9>
+
+	<Dialogue10>
+		<Dialogue string="[Guard is shot in the head]" speaker="false">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="8"/>
+
+		<DialogueEnded bool="true"/>
+
+		<EventTrigger bool="true" eventID="27"/>
+
+	</Dialogue10>
+</Root>

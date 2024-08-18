@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<Dialogue1>
+		<Dialogue string="Quite the journey you've had, prisoner. But all roads lead back to me, it seems." speaker="true">
+			<Responses bool ="true"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="This road leads out of here, and I'm taking it." id="2">
+			</ResponseA>
+
+			<ResponseB string="I'm closer to freedom than you think." id="3">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="2"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="1"/>
+
+	</Dialogue1>
+
+	<Dialogue2>
+		<Dialogue string="You're confident. But confidence won't get you past these gates." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What are you doing?" id="2">
+			</ResponseA>
+
+			<ResponseB string="How do I get out of here?" id="3">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="4"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="1"/>
+
+	</Dialogue2>
+
+	<Dialogue3>
+		<Dialogue string="Freedom? Running from one trap to another doesn't count as freedom. You've only made things more complicated." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="What is your job here?" id="4">
+			</ResponseA>
+
+			<ResponseB string="How do I get out of here?" id="5">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="4"/>
+
+		<DialogueEnded bool="false"/>
+		
+		<EventTrigger bool="false" eventID="1"/> 
+
+	</Dialogue3>
+	
+	<Dialogue4>
+		<Dialogue string="Do you really think you're the first to reach this point? Many have tried." speaker="true">
+			<Responses bool ="true"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="And I'll be the first to succeed." id="5">
+			</ResponseA>
+
+			<ResponseB string="I'm not like the others." id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="2"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="1"/>
+
+	</Dialogue4>
+
+
+	<Dialogue5>
+		<Dialogue string="Every one of them thought the same. Every one of them failed." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="7"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue5>
+
+	<Dialogue6>
+		<Dialogue string="That's what they all said. But they all ended up back where they started." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="w3112321321312321" id="5">
+			</ResponseA>
+
+			<ResponseB string="eee236bdsdsadaw" id="6">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="7"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue6>
+
+	<Dialogue7>
+		<Dialogue string="This isn't a story with a happy ending. You're still trapped, whether you realize it or not." speaker="true">
+			<Responses bool ="true"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="I write my own ending." id="8">
+			</ResponseA>
+
+			<ResponseB string="I've got nothing to lose." id="9">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="7"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue7>
+
+	<Dialogue8>
+		<Dialogue string="You can write whatever you want, but the city only reads one outcome: FAILURE." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="I write my own ending." id="8">
+			</ResponseA>
+
+			<ResponseB string="I've got nothing to lose." id="9">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="10"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue8>
+
+	<Dialogue9>
+		<Dialogue string="Nothing to lose? Then you've already lost more than you realize. The city's grip is unrelenting." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="I write my own ending." id="8">
+			</ResponseA>
+
+			<ResponseB string="I’ve got nothing to lose." id="9">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="10"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue9>
+
+	<Dialogue10>
+		<Dialogue string="This could've gone differently, you know. But you made your choice." speaker="true">
+			<Responses bool ="true"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="I made the only choice I had." id="11">
+			</ResponseA>
+
+			<ResponseB string="I'm ready for whatever comes next." id="12">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="10"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue10>
+
+	<Dialogue11>
+		<Dialogue string="Then prepare to face the consequences of that choice." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="I made the only choice I had." id="11">
+			</ResponseA>
+
+			<ResponseB string="I’m ready for whatever comes next." id="12">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="13"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue11>
+
+	<Dialogue12>
+		<Dialogue string="Are you? Few are truly prepared for what lies ahead." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="I made the only choice I had." id="11">
+			</ResponseA>
+
+			<ResponseB string="I’m ready for whatever comes next." id="12">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="13"/>
+
+		<DialogueEnded bool="false"/>
+
+		<EventTrigger bool="false" eventID="14"/>
+
+	</Dialogue12>
+
+	<Dialogue13>
+		<Dialogue string="Enough talk. Let's see if you can back up your bravado." speaker="true">
+			<Responses bool ="false"/>
+		</Dialogue>
+
+		<ResponseOptions>
+
+			<ResponseA string="I made the only choice I had." id="11">
+			</ResponseA>
+
+			<ResponseB string="I’m ready for whatever comes next." id="12">
+			</ResponseB>
+
+		</ResponseOptions>
+
+		<NextDialogue id="13"/>
+
+		<DialogueEnded bool="true"/>
+
+		<EventTrigger bool="true" eventID="18"/>
+
+	</Dialogue13>
+</Root>
